@@ -1,0 +1,23 @@
+#video/*, #controlVideo*/ {
+	width: 300px;
+    height: 200px;
+    /*background-color: red;*/
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    /*visibility: hidden;*/
+}
+
+#start, #stop {
+	padding: 10px;
+	margin: 20px;
+}
+
+#controlVideo {
+    visibility: hidden;
+}

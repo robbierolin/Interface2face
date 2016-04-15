@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<!--   <script type="text/javascript" src="./js/libs/d3.v3.min.js"> </script>
+  <script type="text/javascript" src="./js/libs/queue.v1.min.js"> </script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script> -->
+    <link rel="stylesheet" id="divi-style-css" href="http://xlabsgaze.com/wp-content/themes/Divi-child/style.css?ver=1.0.0" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> 
+     <script>
+    // (function (i, s, o, g, r, a, m) {
+    //     i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+    //         (i[r].q = i[r].q || []).push(arguments)
+    //     }, i[r].l = 1 * new Date(); a = s.createElement(o),
+    //     m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    // })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    // ga('create', 'UA-53017531-1', 'auto');
+    // ga('send', 'pageview');
+
+    // </script>
+    
+  <h1>Gaze Tracking Passive Calibration</h1>
+  <p>Click on the Ants. And keep clicking on them!</p>
+  <p>After a while, you'll see a magic laser beam that will kill them automatically. But keep clicking on the ants.</p>
+
+
+<!--   <div id="video" style="visibility:hidden">
+    <iframe id="interfacePlayer" src="https://www.youtube.com/embed/lEvXcTYqtKU?start=0&end=170&version=3">
+      </iframe>
+
+    <iframe style="position:relative;width:267px;height:25px;overflow:hidden;visibility:hidden" id="interfaceNoise" src="https://www.youtube.com/embed/w9qpsiQvI2c">
+      <div style="position:absolute;top:-276px;left:-5px"> </div>
+    </iframe>
+
+    <button id="start"> Start </button>
+    <button id="stop"> Stop </button>
+  </div>
+
+  <div id="controlVideo" style="visibilty:hidden">
+    <div id="noInterfacePlayer"></div>
+
+    <button id="NIstart"> Start </button> 
+    <button id="NIstop"> Stop </button>  
+
+  </div> -->
+
+  <div id="interfaceSwitch" style="visibility:hidden">
+    Calibration Completed.
+    <a href="proto.html">Test 1 (with interface).</a>
+    <a href="protoControl.html">Test 2 (without interface).</a>
+  </div>
+
+
+
+  <script src="../api/xlabs.js"></script>
+  <script type="text/javascript" src="../useful/util.js"></script>
+  <script type="text/javascript" src="../useful/state.js"></script>
+  <script type="text/javascript" src="../useful/timer.js"></script>
+  <script type="text/javascript" src="../useful/canvas.js"></script>
+  <script type="text/javascript" src="../useful/errors.js"></script>
+  <script type="text/javascript" src="../useful/mouse.js"></script>
+  <script type="text/javascript" src="../useful/gaze.js"></script>
+  <script type="text/javascript" src="../useful/head.js"></script>
+  <script type="text/javascript" src="ants.js"></script>
+  <!-- // <script type="text/javascript" src="video.js"></script> -->
+</body>
+</html>
